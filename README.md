@@ -1,9 +1,18 @@
 # 1337 Header Generator
 
 <p align="center">
-<a href="https://www.oracle.com/java"><img src="https://img.shields.io/badge/Java-11%2B-%23ED8B00?style=for-the-badge&logo=java" alt="Java 11+"></a>
-<a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://img.shields.io/badge/Programming-%2300599C?style=for-the-badge&logo=c&logoColor=white" alt="C Language"></a>
-<a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPLv3-%234C1?style=for-the-badge&logo=gnu&logoColor=white" alt="License GPL v3"></a>
+  <a href="https://www.oracle.com/java">
+    <img src="https://img.shields.io/badge/Java-11%2B-%23ED8B00?style=for-the-badge&logo=java" alt="Java 11+">
+  </a>
+  <a href="https://en.wikipedia.org/wiki/C_(programming_language)">
+    <img src="https://img.shields.io/badge/Programming-%2300599C?style=for-the-badge&logo=c&logoColor=white" alt="C Language">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/status-Beta-yellow?style=for-the-badge" alt="Beta Badge" />
+  </a>
+  <a href="https://www.gnu.org/licenses/gpl-3.0">
+    <img src="https://img.shields.io/badge/License-GPLv3-%234C1?style=for-the-badge&logo=gnu&logoColor=white" alt="License GPL v3">
+  </a>
 </p>
 
 A minimal, **zero-dependency** Java utility that prepends the iconic [1337 School](https://1337.ma/) style ASCII header to your source files.
