@@ -17,7 +17,6 @@
 
 
 
-
 ### A minimal, **zero-dependency** Java utility that prepends the iconic [1337 School](https://1337.ma/) style ASCII header to your source files.
 
 
