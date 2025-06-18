@@ -8,6 +8,28 @@
 
 A minimal, **zero-dependency** Java utility that prepends the iconic [1337 School](https://1337.ma/) style ASCII header to your source files.
 
+<div style="
+  max-width: 420px;
+  margin: 20px auto;
+  padding: 20px 24px;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #000000, #0d1117);
+  color: #39ff14;
+  border: 2px solid #00ff88;
+  font-family: 'Fira Code', monospace;
+  font-size: 15px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  box-shadow: 0 0 25px #00ff88;
+  text-shadow: 0 0 5px #00ff88;
+  text-align: center;
+">
+  Note: This project is in Beta. Unexpected errors may occur. Your feedback and issue reports are essential to help improve and develop the project further. Thank you for your support.
+</div>
+
+
+
+
 ---
 
 ## ✨ Features
@@ -23,20 +45,34 @@ A minimal, **zero-dependency** Java utility that prepends the iconic [1337 Schoo
 
 ## 📸 Header Preview
 
-```markdown
-/_ ****************************************\*\*\*\***************************************** _/
-/\* _/
-/_ _/
-/_ ft_putchar.c +#:: +####: +####: ###### _/
-/_ ##:: #::::# #::::# #: _/
-/_ By: Soufiano <soufiano@student.1337.ma> #:: #: #: #: _/
-/_ #:: +###: +###: #: _/
-/_ Created: 2025/06/17 02:34:00 by Soufiano #:: #: #: #: _/
-/_ Updated: 2025/06/17 03:00:00 by Soufiano #:: #::::# #::::: #: _/
-/_ ####### +####: +####: #.ma _/
-/_ _/
-/_ ****************************************\*\*\*\***************************************** \*/
-```
+<div style="
+  background: linear-gradient(145deg, #000000, #0d1117);
+  color: #39ff14;
+  border: 2px solid #00ff88;
+  border-radius: 16px;
+  padding: 20px;
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+  font-size: 15px;
+  white-space: pre;
+  overflow-x: auto;
+  box-shadow: 0 0 25px #00ff88;
+  text-shadow: 0 0 5px #00ff88;
+  text-align: center;
+">
+<span style="color:#00ff88">/* ************************************************************************************ */</span>
+<span style="color:#00cc66">/*                                                                                      */</span>
+<span style="color:#00cc66">/*                                                                                      */</span>
+<span style="color:#39ff14">/*   ft_putchar.c                                    +#::     +####:   +####:   ######  */</span>
+<span style="color:#39ff14">/*                                                   ##::     #::::#   #::::#       #:  */</span>
+<span style="color:#ff44ff">/*   By: Soufiano &lt;soufiano@student.1337.ma&gt;          #::         #:       #:      #:   */</span>
+<span style="color:#39ff14">/*                                                    #::     +###:    +###:     #:     */</span>
+<span style="color:#00ffcc">/*   Created: 2025/06/17 02:34:00 by Soufiano         #::         #:       #:   #:      */</span>
+<span style="color:#00ffcc">/*   Updated: 2025/06/17 03:00:00 by Soufiano         #::     #::::#   #:::::  #:       */</span>
+<span style="color:#39ff14">/*                                                  #######   +####:  +####:  #.ma      */</span>
+<span style="color:#00cc66">/*                                                                                      */</span>
+<span style="color:#00ff88">/* ************************************************************************************ */</span>
+</div>
+
 
 ---
 
