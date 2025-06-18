@@ -12,30 +12,30 @@ A minimal, **zero-dependency** Java utility that prepends the iconic [1337 Schoo
 
 ## ✨ Features
 
-* **Single File Injection**: Add a header to one specified file.
-* **Bulk Injection**: Process a list of files in one call.
-* **Project-wide Injection**: Recursively inject headers into files matching given extensions (e.g., `.c`, `.java`, `.kt`).
-* **Automatic Metadata**: Dynamically replaces placeholders with **filename**, **author**, **email**, **creation**, and **update timestamps**.
-* **Alignment Guarantee**: Maintains the original ASCII-art layout regardless of filename length.
-* **Zero Dependencies**: Ships as a single fat JAR—no external libraries.
+- **Single File Injection**: Add a header to one specified file.
+- **Bulk Injection**: Process a list of files in one call.
+- **Project-wide Injection**: Recursively inject headers into files matching given extensions (e.g., `.c`, `.java`, `.kt`).
+- **Automatic Metadata**: Dynamically replaces placeholders with **filename**, **author**, **email**, **creation**, and **update timestamps**.
+- **Alignment Guarantee**: Maintains the original ASCII-art layout regardless of filename length.
+- **Zero Dependencies**: Ships as a single fat JAR—no external libraries.
 
 ---
 
 ## 📸 Header Preview
 
 ```markdown
-/* ************************************************************************************ */
-/*                                                                                      */
-/*                                                                                      */
-/*   ft_putchar.c                                    +#::     +####:   +####:   ######  */
-/*                                                   ##::     #::::#   #::::#       #:  */
-/*   By: Soufiano <soufiano@student.1337.ma>          #::         #:       #:      #:   */
-/*                                                    #::     +###:    +###:     #:     */
-/*   Created: 2025/06/17 02:34:00 by Soufiano         #::         #:       #:   #:      */
-/*   Updated: 2025/06/17 03:00:00 by Soufiano         #::     #::::#   #:::::  #:       */
-/*                                                  #######   +####:  +####:  #.ma      */
-/*                                                                                      */
-/* ************************************************************************************ */
+/_ ****************************************\*\*\*\***************************************** _/
+/\* _/
+/_ _/
+/_ ft_putchar.c +#:: +####: +####: ###### _/
+/_ ##:: #::::# #::::# #: _/
+/_ By: Soufiano <soufiano@student.1337.ma> #:: #: #: #: _/
+/_ #:: +###: +###: #: _/
+/_ Created: 2025/06/17 02:34:00 by Soufiano #:: #: #: #: _/
+/_ Updated: 2025/06/17 03:00:00 by Soufiano #:: #::::# #::::: #: _/
+/_ ####### +####: +####: #.ma _/
+/_ _/
+/_ ****************************************\*\*\*\***************************************** \*/
 ```
 
 ---
@@ -50,38 +50,24 @@ cd 1337HeaderGenerator
 mvn clean package
 ```
 
-The fat JAR will be generated at:
-
-```
-target/1337HeaderGenerator-<version>-shaded.jar
-```
-
-### 2. Run the JAR
-
-```bash
-java -jar target/1337HeaderGenerator-<version>-shaded.jar
-```
-
-By default, `Main` will inject headers into **all** `.java` and `.c` files under the current directory. Customize via your own entry point or flags.
-
----
-
-## 🔧 Programmatic Usage
+## Programmatic Usage :
 
 ```java
 import com.soufianodev.LeetHeaderGenerator;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        var generator = new LeetHeaderGenerator();
-        generator.setStudentData("SoufianoDev", "soufianodev@student.1337.ma");
+
+        LeetHeaderGenerator leetHeader = new LeetHeaderGenerator();
+
+        leetHeader.setStudentData("SoufianoDev", "soufianodev@student.1337.ma");
 
         // Single file
-        generator.addHeaderToSingleFile("src/com/soufianodev/MyFile.c");
+        leetHeader.addHeaderToSingleFile("src/com/soufianodev/MyFile.c");
 
         // Selected files
-        generator.addHeaderToSelectedFiles(
-                List.of("ft_putchar.c", "strlibrary.h", "Pool.kt","FtPrintComb.java")
+        leetHeader.addHeaderToSelectedFiles(
+            List.of("ft_putchar.c", "strlibrary.h", "Pool.kt","FtPrintComb.java")
         );
 
         // All project files with extensions
