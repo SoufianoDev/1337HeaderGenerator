@@ -15,15 +15,10 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://res.cloudinary.com/dpwnvpf63/image/upload/v1749674109/UM6P_1337_hqcnme.jpg" alt="1337 Logo" width="160" style="border-radius: 15%;" />
-    &nbsp;&nbsp;&nbsp;
-<img src="src/main/resources/1337CodingSchool.png" alt="1337 Logo" width="160" style="border-radius: 15%;" />
-  
-</p>
 
 
-#### A minimal, **zero-dependency** Java utility that prepends the iconic [1337 School](https://1337.ma/) style ASCII header to your source files.
+
+### A minimal, **zero-dependency** Java utility that prepends the iconic [1337 School](https://1337.ma/) style ASCII header to your source files.
 
 
 
