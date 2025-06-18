@@ -1,4 +1,4 @@
-# 1337 Header Generator
+# 1337 Header Generator & Injector
 
 <p align="center">
   <a href="https://www.oracle.com/java">
