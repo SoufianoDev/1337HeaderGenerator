@@ -17,6 +17,9 @@
 
 <p align="center">
   <img src="https://res.cloudinary.com/dpwnvpf63/image/upload/v1749674109/UM6P_1337_hqcnme.jpg" alt="1337 Logo" width="160" style="border-radius: 15%;" />
+    &nbsp;&nbsp;&nbsp;
+<img src="src/main/resources/1337CodingSchool.png" alt="1337 Logo" width="160" style="border-radius: 15%;" />
+  
 </p>
 
 
