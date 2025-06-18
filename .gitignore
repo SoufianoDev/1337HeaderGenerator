@@ -1,4 +1,4 @@
-.gitignore
+
 # Default ignored files
 /shelf/
 /workspace.xml
@@ -32,3 +32,4 @@ test/
 /target
 .mvn/
 
+img.py
