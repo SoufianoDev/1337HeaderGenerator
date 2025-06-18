@@ -11,6 +11,7 @@
 /*                                                                                      */
 /* ************************************************************************************ */
 
+
 public class FtPutchar {
     public static void ft_putchar(char c) {
         try {

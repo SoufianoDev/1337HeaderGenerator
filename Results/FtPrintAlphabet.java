@@ -11,6 +11,7 @@
 /*                                                                                      */
 /* ************************************************************************************ */
 
+
 public class FtPrintAlphabet {
 
     public static void ft_print_alphabet() {

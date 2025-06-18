@@ -1,3 +1,4 @@
+.gitignore
 # Default ignored files
 /shelf/
 /workspace.xml
@@ -27,13 +28,7 @@ test/
 # Logs and debugging files
 /logs/
 /debug/
-
-# Operating system files
-.DS_Store
-Thumbs.db
-
-# Miscellaneous
-*.tmp
-*.bak
-*.swp
 *.xml
+/target
+.mvn/
+
