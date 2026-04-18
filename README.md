@@ -1,20 +1,5 @@
 # 1337 Header Generator & Injector
 
-<p align="center">
-  <a href="https://www.oracle.com/java">
-    <img src="https://img.shields.io/badge/Java-11%2B-%23ED8B00?style=for-the-badge&logo=java" alt="Java 11+">
-  </a>
-  <a href="https://en.wikipedia.org/wiki/C_(programming_language)">
-    <img src="https://img.shields.io/badge/Programming-%2300599C?style=for-the-badge&logo=c&logoColor=white" alt="C Language">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/status-Deprecated-red?style=for-the-badge" alt="Deprecated Badge" />
-  </a>
-  <a href="https://www.gnu.org/licenses/gpl-3.0">
-    <img src="https://img.shields.io/badge/License-GPLv3-%234C1?style=for-the-badge&logo=gnu&logoColor=white" alt="License GPL v3">
-  </a>
-</p>
-
 ---
 
 ## ⚠️ Project Status
@@ -23,7 +8,7 @@ This project is **deprecated** and has been archived.
 
 👉 You are strongly encouraged to migrate to the newer, actively maintained project:
 
-**➡️ [https://github.com/SoufianoDev/1337-header-injector](https://github.com/SoufianoDev/1337-header-injector)**
+**➡️ ****[https://github.com/SoufianoDev/1337-header-injector](https://github.com/SoufianoDev/1337-header-injector)**
 
 ### Why migrate?
 
@@ -37,6 +22,12 @@ This project is **deprecated** and has been archived.
 ## Overview
 
 A minimal, **zero-dependency** Java utility that prepends the iconic 1337 School style ASCII header to your source files.
+
+---
+
+## Preview
+
+![Header Preview](src/main/resources/preview.png)
 
 ---
 
